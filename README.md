@@ -1,4 +1,4 @@
-📘 AquaCheck – Arduino-Based Water Quality Monitoring System
+# 📘 AquaCheck – Arduino-Based Water Quality Monitoring System #
 AquaCheck is an Arduino-powered system designed for real-time monitoring of water quality. The system integrates multiple sensors to detect critical water parameters like pH, turbidity, temperature, and dissolved oxygen, offering an efficient and affordable way to analyze water conditions for environmental or agricultural applications.
 
 🛠️ Tech Stack & Tools
