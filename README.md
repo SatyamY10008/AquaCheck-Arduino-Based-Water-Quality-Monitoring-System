@@ -1,20 +1,38 @@
-# 📘 AquaCheck – Arduino-Based Water Quality Monitoring System #
-AquaCheck is an Arduino-powered system designed for real-time monitoring of water quality. The system integrates multiple sensors to detect critical water parameters like pH, turbidity, temperature, and dissolved oxygen, offering an efficient and affordable way to analyze water conditions for environmental or agricultural applications.
+# 💧 AquaCheck – Arduino-Based Water Quality Monitoring System
 
-🛠️ Tech Stack & Tools
-Hardware: Arduino UNO, pH sensor, turbidity sensor, DS18B20 temperature sensor, DO (Dissolved Oxygen) sensor
+AquaCheck is a real-time, Arduino-powered water quality monitoring system developed to measure vital parameters of water including **pH**, **turbidity**, **temperature**, and **dissolved oxygen**. This low-cost and scalable solution is designed for applications in **agriculture**, **environmental research**, **fish farming**, and **smart city water systems**.
 
-Software: Arduino IDE, Embedded C, Serial Monitor, optional IoT platforms (e.g., Blynk, ThingSpeak)
+---
 
-*Libraries:*
-OneWire.h (for DS18B20)
-DallasTemperature.h
-SoftwareSerial.h
-LiquidCrystal_I2C.h (if LCD used)
+## 📸 Project Preview
 
-*🔍 Features*
-Real-time water quality monitoring
-Displays live data on serial monitor / LCD
-Threshold-based alert system (optional)
-Modular and expandable design
-Optional IoT integration for remote monitoring
+<img src="Images/setup_demo.jpg" alt="AquaCheck Setup" width="600"/>
+
+---
+
+## ⚙️ Features
+
+- 🚰 Real-time water quality monitoring
+- 📟 Serial Monitor & LCD output support
+- 🌐 Optional IoT/cloud integration (ThingSpeak/Blynk)
+- 🔄 Expandable to more sensors (EC, TDS, etc.)
+- ⚠️ Configurable threshold alerts (via LEDs, buzzer, or app)
+
+---
+
+## 🔌 Hardware Components
+
+| Component             | Description                         |
+|----------------------|-------------------------------------|
+| Arduino UNO          | Microcontroller                     |
+| pH Sensor            | Measures acidity/alkalinity         |
+| Turbidity Sensor     | Measures water clarity (NTU)        |
+| DS18B20 Sensor       | Digital temperature sensor          |
+| DO Sensor            | Measures dissolved oxygen in mg/L   |
+| Breadboard & Wires   | For circuit connections              |
+| (Optional) LCD 16x2  | For on-device display                |
+
+---
+
+## 🛠️ Circuit Diagram
+
