@@ -6,23 +6,15 @@ Hardware: Arduino UNO, pH sensor, turbidity sensor, DS18B20 temperature sensor, 
 
 Software: Arduino IDE, Embedded C, Serial Monitor, optional IoT platforms (e.g., Blynk, ThingSpeak)
 
-Libraries:
-
+*Libraries:*
 OneWire.h (for DS18B20)
-
 DallasTemperature.h
-
 SoftwareSerial.h
-
 LiquidCrystal_I2C.h (if LCD used)
 
-🔍 Features
+*🔍 Features*
 Real-time water quality monitoring
-
 Displays live data on serial monitor / LCD
-
 Threshold-based alert system (optional)
-
 Modular and expandable design
-
 Optional IoT integration for remote monitoring
